@@ -1,5 +1,5 @@
 '''
-Calculates the GCD given some integer numbers using the Euclidean Algorithm.
+Calculates the greatest common denominator given some integer numbers using the Euclidean Algorithm.
 '''
 
 def gcd(nums):
