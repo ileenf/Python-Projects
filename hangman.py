@@ -28,14 +28,10 @@ if user_choice == 'play':
           
        elif len(letter) > 1:
            print('You should input a single letter')
-          
-       
- 
-elif letter not in ascii_letter:
+         
+       elif letter not in ascii_letter:
            print('It is not an ASCII lowercase letter')
       
-      
-          
        else:
            attempts -= 1
            tried.append(letter)
